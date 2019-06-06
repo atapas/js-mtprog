@@ -1,2 +1,2 @@
 # js-mtprog
-Sample code for *Metaprogramming* in JavaScript using Proxy, reflection etc.
+Sample code for *Metaprogramming* in JavaScript using Proxy, Reflection etc.
