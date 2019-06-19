@@ -10,8 +10,6 @@ let logHandler = {
     }
 };
 
-
-
 let func = () => {
     let p = new Proxy(employee, logHandler);
     p.firstName;
