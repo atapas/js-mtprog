@@ -1,14 +1,14 @@
-const girl = {};
+const sun = {};
 
-Object.defineProperty(girl, 'canTalk', {
+Object.defineProperty(sun, 'rises', {
     value: true,
     configurable: false,
     writable: false,
     enumerable: false
 });
 
-console.log('girl.canTalk', girl.canTalk);
+console.log('sun rises', sun.rises);
 
-girl.canTalk = false;
+sun.rises = false;
 
-console.log('girl.canTalk', girl.canTalk);
+console.log('sun rises', sun.rises);
