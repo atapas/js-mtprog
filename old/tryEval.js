@@ -1,3 +1,4 @@
+
 const blog = {
     name: 'greenroots'
 }
@@ -11,3 +12,4 @@ testEval = () => eval(`blog.${key} = '${value}'`);
 testEval();
 
 console.log('After eval magic:', blog);
+

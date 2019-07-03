@@ -1,3 +1,4 @@
+
 const sun = {};
 
 Object.defineProperty(sun, 'rises', {
@@ -8,7 +9,6 @@ Object.defineProperty(sun, 'rises', {
 });
 
 console.log('sun rises', sun.rises);
-
 sun.rises = false;
-
 console.log('sun rises', sun.rises);
+

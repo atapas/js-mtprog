@@ -1,6 +1,6 @@
-const girl = {};
+const sun = {};
 
-const result = Reflect.defineProperty(girl, 'canTalk', {
+const result = Reflect.defineProperty(sun, 'canTalk', {
     value: true,
     configurable: false,
     writable: false,
@@ -8,9 +8,9 @@ const result = Reflect.defineProperty(girl, 'canTalk', {
 });
 
 if (result) {
-    console.log('girl.canTalk', girl.canTalk);
+    console.log('girl.canTalk', sun.rises);
 
-    girl.canTalk = false;
+    sun.rises = false;
 
-    console.log('girl.canTalk', girl.canTalk);
+    console.log('girl.canTalk', sun.rises);
 }
