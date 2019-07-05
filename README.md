@@ -1,5 +1,5 @@
 # js-mtprog
-Sample code for *Metaprogramming* in JavaScript using Proxy, Reflection etc.
+Sample code for *Metaprogramming* in JavaScript using ES6 Symbol, Proxy, Reflection etc.
 
 # Learn about MetaProgramming
 
