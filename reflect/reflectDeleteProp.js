@@ -1,13 +1,13 @@
 const obj = { bar: true, baz: false};
 
-/*function deleteProperty(object, key) {
+// delete object[key]
+function deleteProperty(object, key) {
     delete object[key];
 }
-
 deleteProperty(obj, 'bar');
 
-console.log(obj);*/
-
+// With Reflect API
 Reflect.deleteProperty(obj, 'bar');
 
 console.log(obj);
+
